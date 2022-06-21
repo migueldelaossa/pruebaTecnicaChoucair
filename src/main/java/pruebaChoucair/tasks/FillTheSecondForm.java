@@ -18,7 +18,7 @@ public class FillTheSecondForm implements Task {
         actor.attemptsTo(Enter.theValue("Medellin").into(UtestSecondFormPage.SELECT_CITY),
                 Click.on(UtestSecondFormPage.CITIES),
                 Enter.theValue("050012").into(UtestSecondFormPage.INPUT_ZIP_CODE),
-                Click.on(UtestSecondFormPage.BUTTON_NEXT_DEVICES));
+                Click.on(UtestSecondFormPage.BUTTON_NEXT_FORM));
 
     }
 }

@@ -21,7 +21,7 @@ public class UtestFormPage extends PageObject {
             located(By.xpath("//*[@id=\"languages\"]/div[1]/input"));
     public static final Target LANGUAGE = Target.the("spanish language").
             located(By.xpath("//*[@id=\"ui-select-choices-row-0-0\"]/span/div/span"));
-    public static final Target BUTTON_NEXT = Target.the("where do we click to the birth month").
+    public static final Target BUTTON_NEXT = Target.the("where do we pass to the next form").
             located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[2]/a"));
 
 }

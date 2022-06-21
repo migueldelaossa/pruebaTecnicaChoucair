@@ -14,7 +14,7 @@ public class UtestSecondFormPage extends PageObject {
     public static Target INPUT_ZIP_CODE= Target.the("where do we write the zip code")
             .located(By.id("zip"));
 
-    public static Target BUTTON_NEXT_DEVICES= Target.the("Press button Next:Devices")
+    public static Target BUTTON_NEXT_FORM= Target.the("press the button to continue to next form")
             .located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[2]/div/a"));
 
 }
